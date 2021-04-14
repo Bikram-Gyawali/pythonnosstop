@@ -35,3 +35,8 @@ countWord.pop('i')  # it will delete i from the dictionary
 print(list(countWord.keys()))
 countWord['bikram'] = 3
 print(countWord)
+print("pop", countWord.popitem())
+
+dictionary.clear()
+
+print(dictionary)
